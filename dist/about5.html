@@ -85,9 +85,9 @@
 <!-- menuBox -->
 <div class="mtop"></div>
 <div class="pbanner scroll-animation">
-    <div class="pic2"><img src="img/ab_banner.jpg" alt=""></div>
-    <span class="cover"></span>
-    <div class="txts">
+    <div class="pic"><img src="images/map.png" alt=""></div><!--  固定图片，不允许替换 -->
+    <div id="map"></div>
+    <!-- <div class="txts">
         <div class="pw">
             <div class="b">
                 <p class="en ff-1 ttu transX trans">prolink wealth</p>
@@ -95,56 +95,49 @@
                 <span class="line transXF trans dly-4"></span>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <!-- pbanner -->
 <div class="pnav" id="spv">
     <div class="pw clearfix">
-        <p class="mcv">公司资质<i class="caret"></i></p>
+        <p class="mcv">联系我们<i class="caret"></i></p>
         <div class="pv">
             <a href="about.html?#spv">公司简介</a>
             <a href="about1.html?#spv">企业文化</a>
             <a href="about2.html?#spv">浦领荣誉</a>
-            <a href="about3.html?#spv" class="act">公司资质</a>
+            <a href="about3.html?#spv">公司资质</a>
             <a href="about4.html?#spv">社会责任</a>
-            <a href="about5.html?#spv">联系我们</a>
+            <a href="about5.html?#spv" class="act">联系我们</a>
         </div>
     </div>
 </div>
 <!-- pnav -->
 <div class="container">
-    <div class="ab7 pw">
-        <ul class="qua-list">
-            <li><a href="javascript:void(0);" data-big-num="1" data-img="img/honor_i4.jpg" data-title="基金销售业务资格证书" class="qua-a clearfix">
-                <div class="picbox"><div class="pic"><img src="img/honor_i3.jpg" alt=""></div><span class="cover"></span><p class="btn">查看大图</p></div>
-                <div class="txts">
-                    <p class="ti ti1 fwb">基金销售业务资格证书</p>
-                    <p class="ti ti2 fwb"><span>持牌机构：基金销售业务资格证书</span><span>持牌机构：基金销售业务资格证书</span></p>
-                    <div class="tx">
-                        虚拟文字简介2012年2月17日成为2012年首批经中国证监会核准，取得独立基金销售牌照的基金销售公司。经营范围包括：基金销售，计算机领域内技术开发、技术咨询、技术服务、技术转让，投资管理，资产管理。
-                    </div>
+    <div class="ab9 pw">
+        <div class="cta-ti">
+            <p class="ch">浦领财富管理有限公司</p>
+            <p class="en">prolink wealth</p>
+        </div>
+        <ul class="cta-list clearfix">
+            <li class="tel">
+                <span class="bico"></span>
+                <div class="b">
+                    <a href="tel:862160600266" class="na"><p class="name">公司总机</p>86-21-6060 0266</a>
+                    <a href="tel:862160600266" class="na"><p class="name">客服电话</p>86-21-6060 0266</a>
                 </div>
-            </a></li>
-            <li><a href="javascript:void(0);" data-big-num="2" data-img="img/honor_i4.jpg" data-title="基金销售业务资格证书" class="qua-a clearfix">
-                <div class="picbox"><div class="pic"><img src="img/honor_i3.jpg" alt=""></div><span class="cover"></span><p class="btn">查看大图</p></div>
-                <div class="txts">
-                    <p class="ti ti1 fwb">基金销售业务资格证书</p>
-                    <p class="ti ti2 fwb"><span>持牌机构：基金销售业务资格证书</span><span>持牌机构：基金销售业务资格证书</span></p>
-                    <div class="tx">
-                        虚拟文字简介2012年2月17日成为2012年首批经中国证监会核准，取得独立基金销售牌照的基金销售公司。经营范围包括：基金销售，计算机领域内技术开发、技术咨询、技术服务、技术转让，投资管理，资产管理。
-                    </div>
+            </li>
+            <li class="email">
+                <span class="bico"></span>
+                <div class="b">
+                    <a href="#"><p class="name">客服邮箱</p>kefu@prolink.com</a>
                 </div>
-            </a></li>
-            <li><a href="javascript:void(0);" data-big-num="3" data-img="img/honor_i4.jpg" data-title="基金销售业务资格证书" class="qua-a clearfix">
-                <div class="picbox"><div class="pic"><img src="img/honor_i3.jpg" alt=""></div><span class="cover"></span><p class="btn">查看大图</p></div>
-                <div class="txts">
-                    <p class="ti ti1 fwb">基金销售业务资格证书</p>
-                    <p class="ti ti2 fwb"><span>持牌机构：基金销售业务资格证书</span><span>持牌机构：基金销售业务资格证书</span></p>
-                    <div class="tx">
-                        虚拟文字简介2012年2月17日成为2012年首批经中国证监会核准，取得独立基金销售牌照的基金销售公司。经营范围包括：基金销售，计算机领域内技术开发、技术咨询、技术服务、技术转让，投资管理，资产管理。
-                    </div>
+            </li>
+            <li class="addr">
+                <span class="bico"></span>
+                <div class="b">
+                    <a href="#"><p class="name">公司地址</p>上海市浦东新区银城中路501号上海中心大厦69层</a>
                 </div>
-            </a></li>
+            </li>
         </ul>
     </div>
 </div>
@@ -203,15 +196,12 @@
 </ul>
 <!-- fixctas -->
 <script src="js/plugin.js"></script>
+<script src="js/map.js"></script>
 <script src="js/page.js"></script>
 <script>
     $(function(){
-        $('.qua-a').bind('click', function () {
-            var maxnum = $('.qua-list li').length;
-            var $this = $(this);
-            var num = parseInt($this.attr('data-big-num'));
-            openshowImg(num,maxnum); 
-        });
+        var k=' <p style="color: #c56314;font-size:14px;">四川新生命干细胞科技股份有限公司</p><p  style="line-height:1.4; font-size:12px;">地址：四川省成都市金牛区金泉路15号<br>电话：(028)87503131,(028)87505151,4000909033</p>'; 
+        ShowMap('104.018887,30.723201', k, '17');
     })
 </script>
 </body>
