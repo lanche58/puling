@@ -2204,7 +2204,8 @@ a {
   .qua-a .picbox {
     float: left;
     width: 292px;
-    margin-right: 50px; }
+    margin-right: 50px;
+    color: #fff; }
   .qua-a .cover {
     background: rgba(229, 206, 158, 0.8);
     opacity: 0;
@@ -3072,7 +3073,9 @@ a {
     bottom: 30px;
     width: 36px;
     height: 7px;
-    background: #999; }
+    background: #999;
+    -webkit-transition: 300ms;
+    transition: 300ms; }
   .jb-a .en {
     position: relative;
     padding-left: 45px;
@@ -3121,7 +3124,9 @@ a {
 @media screen and (min-width: 1025px) {
   .jb-a:hover {
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); } }
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+  .jb-a:hover:before {
+    background: #e5ce9e; } }
 
 @media screen and (max-width: 1366px) {
   .jb-list {
